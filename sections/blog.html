@@ -1,0 +1,24 @@
+<section class="section" id="blog">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Blog & Articles</span>
+      <h4>My latest writing</h4>
+      <p>Medical notes, Technology guides, Personal stories and Everyday experiences.</p>
+    </div>
+
+    <!-- Blog category filter (Populated dynamically from Google Sheets) -->
+    <div class="blog-toolbar" id="blogToolbar">
+      <button class="filter-btn active" data-filter="all">All</button>
+    </div>
+
+    <!-- Blog posts are loaded automatically from Google Sheets by main.js -->
+    <div class="grid blog-grid" id="blogGrid"></div>
+
+    <!-- See More Button -->
+    <div class="see-more-wrap" id="blogSeeMoreWrap" style="display:none">
+      <button class="see-more-btn" id="blogSeeMoreBtn">
+        See More Articles ↓
+      </button>
+    </div>
+  </div>
+</section>

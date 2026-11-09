@@ -1,11 +1,21 @@
-<div align="center">
+# Fahim Shahriar Website — Separated Structure
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+এই version-এ বড় `index.html`-কে আলাদা করা হয়েছে। GitHub Pages-এ পুরো folder upload করুন।
 
-  <h1>Built with AI Studio</h2>
+## Structure
+- `index.html` — মূল layout/header/footer
+- `css/style.css` — সব CSS
+- `js/main.js` — সব JavaScript
+- `sections/` — Home, About, Journey, Skills, Projects, Blog, Videos, Services, Gallery, Achievements, Testimonials, CV, Contact আলাদা HTML
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## কীভাবে edit করবেন
+- About বদলাতে: `sections/about.html`
+- Projects বদলাতে: `sections/projects.html`
+- Blog বদলাতে: `sections/blog.html`
+- Gallery বদলাতে: `sections/gallery.html`
+- Contact বদলাতে: `sections/contact.html`
+- Design/CSS বদলাতে: `css/style.css`
+- Function/JS বদলাতে: `js/main.js`
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Important
+Section files `fetch()` দিয়ে load হয়। তাই `index.html`-এ double-click করে `file://` দিয়ে না খুলে GitHub Pages বা local server দিয়ে চালান।
